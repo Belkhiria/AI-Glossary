@@ -2,6 +2,12 @@
 
 Ever felt lost in AI conversations because of all the jargon? This glossary translates 135+ AI terms into plain English that actually makes sense.
 
+## 🌐 Access the App
+
+**Use it here:** https://belkhiria.github.io/AI-Glossary/
+
+Start searching AI terms right away - no setup required.
+
 ## What's This About?
 
 I got tired of AI explanations that sound like they were written by robots for robots. So I built this glossary where "Neural Network" doesn't sound like rocket science and "Transformer" actually explains what it does.
