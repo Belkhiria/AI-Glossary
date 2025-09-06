@@ -34,16 +34,10 @@ export default function App() {
     return category
   }
 
-  // Function to display full category names in filter buttons
+  // Function to display full category names in filter buttons (no change needed)
   const getFilterButtonCategory = (category) => {
-    if (category === 'NLP') {
-      return 'Natural Language Processing'
-    }
-    return category
+    return category  // Just return as-is since data has full names
   }
-
-  // Debug: Let's see what categories array contains
-  console.log('Categories array:', categories)
 
   // Filter terms based on search and category
   const filteredTerms = useMemo(() => {
@@ -156,7 +150,7 @@ export default function App() {
                       {highlightText(term.term, searchQuery)}
                     </h3>
                     <div className="term-meta">
-                      <span className="category-tag">{term.category}</span>
+                      <span className="category-tag">{getTermCardCategory(term.category)}</span>
                       <span className={`expand-icon ${expandedTerms.has(term.id) ? 'expanded' : ''}`}>
                         ▼
                       </span>
