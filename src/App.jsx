@@ -26,6 +26,25 @@ export default function App() {
     setIsDarkMode(prevMode => !prevMode)
   }
 
+  // Function to display shortened category names in term cards only
+  const getTermCardCategory = (category) => {
+    if (category === 'Natural Language Processing') {
+      return 'NLP'
+    }
+    return category
+  }
+
+  // Function to display full category names in filter buttons
+  const getFilterButtonCategory = (category) => {
+    if (category === 'NLP') {
+      return 'Natural Language Processing'
+    }
+    return category
+  }
+
+  // Debug: Let's see what categories array contains
+  console.log('Categories array:', categories)
+
   // Filter terms based on search and category
   const filteredTerms = useMemo(() => {
     return aiTerms.filter(term => {
@@ -106,7 +125,7 @@ export default function App() {
               onClick={() => setSelectedCategory(category)}
               className={`category-button ${selectedCategory === category ? 'active' : ''}`}
             >
-              {category}
+              {getFilterButtonCategory(category)}
             </button>
           ))}
         </div>
@@ -128,7 +147,7 @@ export default function App() {
             
             <div className="terms-grid">
               {filteredTerms.map(term => (
-                <div key={term.id} className="term-card">
+                <div key={term.id} className={`term-card ${expandedTerms.has(term.id) ? 'expanded' : ''}`}>
                   <div 
                     className="term-header"
                     onClick={() => toggleTerm(term.id)}
@@ -144,25 +163,17 @@ export default function App() {
                     </div>
                   </div>
                   
-                  <div className="term-preview">
-                    {highlightText(term.definition.substring(0, 100), searchQuery)}...
-                  </div>
-
-                  {expandedTerms.has(term.id) && (
-                    <div className="term-details">
+                  <div className="term-content">
+                    {expandedTerms.has(term.id) ? (
                       <p className="term-definition">
                         {highlightText(term.definition, searchQuery)}
                       </p>
-                      <div className="term-examples">
-                        <strong>Examples:</strong>
-                        <ul>
-                          {term.examples.map((example, index) => (
-                            <li key={index}>{example}</li>
-                          ))}
-                        </ul>
+                    ) : (
+                      <div className="term-preview">
+                        {highlightText(term.definition.substring(0, 100), searchQuery)}...
                       </div>
-                    </div>
-                  )}
+                    )}
+                  </div>
                 </div>
               ))}
             </div>
