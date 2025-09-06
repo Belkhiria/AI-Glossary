@@ -1,45 +1,119 @@
 # Product Requirements Document (PRD) – AI Glossary
 
-## 1. Vision & Objectives
-**Vision:** Make AI concepts accessible and easy to understand for beginners through a clean, interactive glossary.  
-**Objective:** Deliver a single-page, responsive web app that provides quick, clear definitions of AI terms with intuitive navigation.
+## 🎯 Purpose
+**Build a lightweight, client-side AI glossary that makes complex AI terms instantly accessible to developers, students, and tech enthusiasts.**
+
+**Core Value:** Search → Find → Understand AI concepts in seconds, not minutes.
 
 ---
 
-## 2. User Stories
-- **As a developer**, I want to quickly search AI terms so that I can understand documentation without leaving my workflow.
-- **As a student**, I want simple definitions with examples so that I can grasp concepts faster.
-- **As a tech enthusiast**, I want to browse trending AI terms so that I can follow industry news confidently.
-- **As a beginner**, I want category filters so that I can focus on one topic area at a time.
+## 🚀 Prototype Goals (30-60 min build)
+- **Primary:** Functional search + term display
+- **Secondary:** Basic filtering by category
+- **Success:** User can search "neural network" and get a clear definition
 
 ---
 
-## 3. Feature List
-### MVP Features
-- Searchable list of AI terms
-- Expandable term cards with definitions
-- Category filters (e.g., ML, NLP, Vision)
-- Responsive single-page layout
+## 👤 Key User Flows
 
-### Stretch Goals
-- Downloadable PDF glossary
-- Dark mode toggle
-- Interactive diagrams for key concepts
+### Flow 1: Quick Search (Primary)
+1. User lands on page → sees search box prominently
+2. Types "transformer" → sees filtered results instantly
+3. Clicks term → definition expands inline
+4. **Result:** Question answered in <10 seconds
 
----
-
-## 4. Success Metrics
-- **Engagement:** 70% of users interact with at least 3 terms per session.
-- **Retention:** 40% of users return within a week.
-- **Completion:** MVP built and functional within 1-hour workshop.
+### Flow 2: Browse by Category (Secondary)
+1. User clicks "Machine Learning" filter
+2. Sees curated list of ML terms
+3. Scans and clicks interesting terms
+4. **Result:** Discovers related concepts organically
 
 ---
 
-## 5. Constraints or Assumptions
-- **Constraints:**
-  - Single-page front-end only (no backend, no external APIs)
-  - Minimal state management (in-memory or localStorage)
-  - No authentication or user accounts
-- **Assumptions:**
-  - Users have basic web access and interest in AI concepts
-  - Glossary content is preloaded and static for MVP
+## 🛠 MVP Feature Breakdown
+
+### Core Features (Must Have - 30 min)
+- **Search Box**: Real-time filter as user types
+- **Term Cards**: Title + short definition (expandable)
+- **Static Data**: 20-30 curated AI terms in JSON/array
+- **Responsive Layout**: Works on mobile + desktop
+
+### Enhanced Features (Nice to Have - 15 min)
+- **Category Filters**: ML, NLP, Computer Vision, Ethics
+- **Highlight Search**: Bold matching text in results
+- **Smooth Animations**: Expand/collapse transitions
+
+### Polish Features (If Time Allows - 15 min)
+- **Dark Mode Toggle**: Simple CSS class switch
+- **URL State**: Shareable links for specific terms
+- **Clear All**: Reset search/filters button
+
+---
+
+## 📋 Content Structure
+```javascript
+// Sample data structure
+{
+  id: "neural-network",
+  term: "Neural Network", 
+  definition: "A computing system inspired by biological neural networks...",
+  category: "Machine Learning",
+  examples: ["Image recognition", "Natural language processing"]
+}
+```
+
+### Initial Term List (20 terms minimum)
+**Machine Learning:** Neural Network, Deep Learning, Supervised Learning, Unsupervised Learning, Reinforcement Learning
+**NLP:** Transformer, BERT, GPT, Tokenization, Embedding
+**Computer Vision:** CNN, Object Detection, Image Classification, Segmentation
+**Ethics/General:** AI Bias, Explainable AI, AGI, Training Data, Model Drift
+
+---
+
+## ⚡ Technical Constraints (Optimized for Speed)
+
+### Requirements
+- **No Backend**: Pure client-side (HTML/CSS/JS or React)
+- **No External APIs**: All data embedded/imported
+- **No Database**: JSON array or JavaScript objects
+- **No Authentication**: Public access only
+
+### Recommended Stack
+- **React + Vite** (already set up) for fast development
+- **CSS Modules or Styled Components** for styling
+- **Local Storage** for user preferences (theme, last search)
+
+---
+
+## 🎯 Success Criteria
+
+### Functional Success (MVP Done)
+- [ ] User can search and find terms
+- [ ] Definitions display clearly
+- [ ] Works on mobile and desktop
+- [ ] No console errors
+
+### User Experience Success
+- [ ] Search results appear instantly (<100ms)
+- [ ] Interface is intuitive (no instructions needed)
+- [ ] Content is accurate and helpful
+
+### Development Success
+- [ ] Built within time constraints
+- [ ] Code is clean and maintainable
+- [ ] Easy to add new terms
+
+---
+
+## 🔄 Iteration Plan
+
+### Phase 1 (Core - 30 min)
+Static layout + hardcoded terms + basic search
+
+### Phase 2 (Enhanced - 15 min) 
+Categories + better styling + animations
+
+### Phase 3 (Polish - 15 min)
+Dark mode + URL state + performance optimization
+
+**Total Target: 60 minutes from start to deployable prototype**
