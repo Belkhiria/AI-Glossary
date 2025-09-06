@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import React, { useState, useMemo, useEffect } from 'react'
 import { aiTerms, categories } from './data/aiTerms.js'
 import './App.css'
 
@@ -6,6 +6,25 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('All')
   const [expandedTerms, setExpandedTerms] = useState(new Set())
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    // Check localStorage first, then system preference
+    const saved = localStorage.getItem('ai-glossary-theme')
+    if (saved) {
+      return saved === 'dark'
+    }
+    return window.matchMedia('(prefers-color-scheme: dark)').matches
+  })
+
+  // Apply theme class to document body
+  useEffect(() => {
+    document.body.className = isDarkMode ? 'dark-theme' : 'light-theme'
+    localStorage.setItem('ai-glossary-theme', isDarkMode ? 'dark' : 'light')
+  }, [isDarkMode])
+
+  // Toggle dark mode
+  const toggleDarkMode = () => {
+    setIsDarkMode(prevMode => !prevMode)
+  }
 
   // Filter terms based on search and category
   const filteredTerms = useMemo(() => {
@@ -48,7 +67,16 @@ export default function App() {
   return (
     <main className="app">
       <header className="header">
-        <h1>AI Glossary</h1>
+        <div className="header-top">
+          <h1>AI Glossary</h1>
+          <button 
+            onClick={toggleDarkMode}
+            className="theme-toggle"
+            aria-label={`Switch to ${isDarkMode ? 'light' : 'dark'} mode`}
+          >
+            {isDarkMode ? '☀️' : '🌙'}
+          </button>
+        </div>
         <p className="subtitle">
           Complex AI terms made simple. Search, explore, and understand AI concepts in seconds.
         </p>
