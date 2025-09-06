@@ -48,7 +48,7 @@ export default function App() {
   return (
     <main className="app">
       <header className="header">
-        <h1>🤖 AI Glossary</h1>
+        <h1>AI Glossary</h1>
         <p className="subtitle">
           Complex AI terms made simple. Search, explore, and understand AI concepts in seconds.
         </p>
