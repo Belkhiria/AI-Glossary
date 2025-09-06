@@ -838,6 +838,1132 @@ export const aiTerms = [
     term: "AI Interpretability",
     definition: "How well humans can understand and explain what an AI is thinking. Instead of just saying 'the computer said no,' being able to explain 'here's exactly why the computer made that decision.'",
     category: "AI Ethics"
+  },
+
+  // Additional Foundational AI Terms
+  {
+    id: 136,
+    term: "Abductive Inference",
+    definition: "Smart guessing based on incomplete information - like how Sherlock Holmes figures out who did it from just a few clues. It's reasoning backwards from effects to likely causes.",
+    category: "Foundational AI"
+  },
+  {
+    id: 137,
+    term: "Abductive Reasoning",
+    definition: "The art of making educated guesses when you don't have all the facts. Like seeing wet streets and concluding it probably rained, even though you didn't see it happen.",
+    category: "Foundational AI"
+  },
+  {
+    id: 138,
+    term: "Abductive Logic Programming",
+    definition: "A programming approach that lets computers make smart guesses about missing information, like filling in the blanks in a story with the most logical explanations.",
+    category: "Foundational AI"
+  },
+  {
+    id: 139,
+    term: "Agent Architecture",
+    definition: "The blueprint for how an AI agent is built - like the floor plan of a house, it shows how all the thinking, sensing, and acting parts connect together.",
+    category: "Foundational AI"
+  },
+  {
+    id: 140,
+    term: "Belief-Desire-Intention Model",
+    definition: "A way to build AI that thinks like humans do - it has beliefs about the world, desires for what it wants, and intentions about what to do next. Like having goals and making plans.",
+    category: "Foundational AI"
+  },
+  {
+    id: 141,
+    term: "Belief Revision",
+    definition: "How AI updates its understanding when new information contradicts what it thought was true. Like changing your mind about someone when you learn new facts about them.",
+    category: "Foundational AI"
+  },
+  {
+    id: 142,
+    term: "Cognitive Architecture",
+    definition: "The overall design of how artificial minds work - the cognitive equivalent of computer hardware, but for thinking, learning, and understanding instead of just computing.",
+    category: "Foundational AI"
+  },
+  {
+    id: 143,
+    term: "Cognitive Science",
+    definition: "The study of how minds work - both human and artificial. It's like psychology meets computer science to understand thinking, learning, and consciousness itself.",
+    category: "Foundational AI"
+  },
+  {
+    id: 144,
+    term: "Common Sense Reasoning",
+    definition: "Teaching AI the obvious stuff that humans just know - like water is wet, objects fall down, and people get sad when bad things happen. Surprisingly hard to program!",
+    category: "Foundational AI"
+  },
+  {
+    id: 145,
+    term: "Deliberative Agent",
+    definition: "An AI that thinks before it acts, like a chess player considering all possible moves. It plans, weighs options, and makes thoughtful decisions rather than just reacting instantly.",
+    category: "Foundational AI"
+  },
+  {
+    id: 146,
+    term: "Embodied Cognition",
+    definition: "The idea that thinking isn't just in the brain - our bodies and physical experiences shape how we understand the world. Like how touching things helps us learn about them.",
+    category: "Foundational AI"
+  },
+  {
+    id: 147,
+    term: "Emergent Behavior",
+    definition: "When simple parts working together create something surprisingly complex and smart. Like how ant colonies build amazing structures even though individual ants aren't architects.",
+    category: "Foundational AI"
+  },
+  {
+    id: 148,
+    term: "Grounding",
+    definition: "Connecting abstract concepts to real-world experiences. Like how the word 'red' means something because you've actually seen red things - not just read a definition of it.",
+    category: "Foundational AI"
+  },
+  {
+    id: 149,
+    term: "Goal-Based Agent",
+    definition: "An AI that works towards specific objectives, like a GPS that wants to get you to your destination. It makes decisions based on whether they help achieve its goals.",
+    category: "Foundational AI"
+  },
+  {
+    id: 150,
+    term: "Intelligent Agent",
+    definition: "Any AI system that can perceive its environment, think about it, and take actions to achieve goals. Like a smart robot butler that can see, think, and act independently.",
+    category: "Foundational AI"
+  },
+  {
+    id: 151,
+    term: "Knowledge Acquisition",
+    definition: "How AI systems learn and gather new information and skills. Like a student collecting knowledge from books, teachers, and experiences to become smarter over time.",
+    category: "Foundational AI"
+  },
+  {
+    id: 152,
+    term: "Knowledge Engineering",
+    definition: "The art of organizing and structuring information so AI can use it effectively. Like being a librarian for robot brains, making sure knowledge is findable and usable.",
+    category: "Foundational AI"
+  },
+  {
+    id: 153,
+    term: "Knowledge Representation",
+    definition: "How to store facts and ideas in a computer's brain so it can reason with them. Like choosing between filing cabinets, databases, or mind maps for organizing information.",
+    category: "Foundational AI"
+  },
+  {
+    id: 154,
+    term: "Modularity",
+    definition: "Building AI in separate, interchangeable pieces that can work together. Like LEGO blocks - you can swap parts in and out to create different capabilities without rebuilding everything.",
+    category: "Foundational AI"
+  },
+  {
+    id: 155,
+    term: "Rational Agent",
+    definition: "An AI that always tries to make the best possible decision given what it knows. Like an ideally logical person who never lets emotions or biases cloud their judgment.",
+    category: "Foundational AI"
+  },
+  {
+    id: 156,
+    term: "Situation Calculus",
+    definition: "A mathematical way to describe how actions change the world over time. Like writing a story where each chapter shows how the world is different after someone does something.",
+    category: "Foundational AI"
+  },
+  {
+    id: 157,
+    term: "Synapse",
+    definition: "The connection points between artificial neurons in AI networks, just like in real brains. These connections learn and strengthen to form memories and skills, like building pathways in the mind.",
+    category: "Foundational AI"
+  },
+  {
+    id: 158,
+    term: "Theory of Mind",
+    definition: "Understanding that others have their own thoughts, beliefs, and feelings different from yours. It's what lets you predict how someone will react or realize they might not know what you know.",
+    category: "Foundational AI"
+  },
+
+  // Additional Machine Learning Terms
+  {
+    id: 159,
+    term: "Ablation",
+    definition: "Testing what happens when you remove parts of an AI system to see which pieces are actually important. Like taking ingredients out of a recipe one by one to see what each one does.",
+    category: "Machine Learning"
+  },
+  {
+    id: 160,
+    term: "Adaptive Algorithm",
+    definition: "AI that changes its approach based on what it learns, like a student who adjusts their study method when they figure out what works best for them.",
+    category: "Machine Learning"
+  },
+  {
+    id: 161,
+    term: "Adaptive Neuro Fuzzy Inference System",
+    definition: "A smart system that combines neural networks with fuzzy logic - it can learn from examples and handle uncertainty at the same time. Like having both book smarts and street smarts.",
+    category: "Machine Learning"
+  },
+  {
+    id: 162,
+    term: "AlphaGo",
+    definition: "Google's famous AI that became the first computer to beat world champions at Go, one of the most complex board games ever invented. It taught itself by playing millions of games.",
+    category: "Machine Learning"
+  },
+  {
+    id: 163,
+    term: "Bayesian Network",
+    definition: "A way to map out how different things influence each other with probabilities. Like a family tree of causes and effects, showing how rain affects traffic, which affects mood, and so on.",
+    category: "Machine Learning"
+  },
+  {
+    id: 164,
+    term: "Bayesian Programming",
+    definition: "Programming based on probability and uncertainty rather than absolute rules. It's like making decisions when you're not 100% sure about anything, which is most of real life.",
+    category: "Machine Learning"
+  },
+  {
+    id: 165,
+    term: "Bayesian Statistics",
+    definition: "A way of thinking about probability that updates beliefs as new evidence comes in. Like being a detective who changes theories as new clues appear.",
+    category: "Machine Learning"
+  },
+  {
+    id: 166,
+    term: "Catastrophic Interference",
+    definition: "When an AI forgets old skills while learning new ones, like a student who studies French so hard they start forgetting Spanish. A major challenge in lifelong learning.",
+    category: "Machine Learning"
+  },
+  {
+    id: 167,
+    term: "Concept Drift",
+    definition: "When the patterns in data slowly change over time, making old AI models less accurate. Like how slang evolves - what was cool yesterday might be cringe today.",
+    category: "Machine Learning"
+  },
+  {
+    id: 168,
+    term: "Concept Learning",
+    definition: "How AI figures out general ideas from specific examples. Like learning what 'furniture' means by seeing chairs, tables, and beds until you understand the concept.",
+    category: "Machine Learning"
+  },
+  {
+    id: 169,
+    term: "Continuous Learning",
+    definition: "AI that keeps learning new things without forgetting what it already knows. Like a student who can keep taking new classes without losing knowledge from previous ones.",
+    category: "Machine Learning"
+  },
+  {
+    id: 170,
+    term: "Deep Neural Network",
+    definition: "A neural network with many layers that can learn very complex patterns. Think of it as a stack of filters, each one understanding something more sophisticated than the last.",
+    category: "Machine Learning"
+  },
+  {
+    id: 171,
+    term: "Early Stopping",
+    definition: "Knowing when to stop training an AI before it gets too obsessed with the training data. Like knowing when to stop studying before you overthink and confuse yourself.",
+    category: "Machine Learning"
+  },
+  {
+    id: 172,
+    term: "Elastic Net",
+    definition: "A machine learning technique that finds the sweet spot between being too simple and too complex. Like tuning a guitar - not too loose, not too tight, just right.",
+    category: "Machine Learning"
+  },
+  {
+    id: 173,
+    term: "Empirical Risk Minimization",
+    definition: "A fancy way of saying 'learn from your mistakes on practice problems.' The AI tries to minimize errors on training data to perform better on new, unseen data.",
+    category: "Machine Learning"
+  },
+  {
+    id: 174,
+    term: "Feedforward Neural Network",
+    definition: "The simplest type of neural network where information flows in one direction from input to output. Like an assembly line where each worker passes the product to the next station.",
+    category: "Machine Learning"
+  },
+  {
+    id: 175,
+    term: "Feature Extraction",
+    definition: "Finding the most important characteristics in raw data that help make predictions. Like a detective picking out the key clues from a crime scene while ignoring irrelevant details.",
+    category: "Machine Learning"
+  },
+  {
+    id: 176,
+    term: "Finite-State Machine",
+    definition: "A simple model that can be in one state at a time and changes states based on inputs. Like a traffic light that goes from red to green to yellow based on timing.",
+    category: "Machine Learning"
+  },
+  {
+    id: 177,
+    term: "Hidden Markov Model",
+    definition: "A system that models sequences where you can see the results but not the hidden causes. Like inferring someone's mood from their text messages without seeing their face.",
+    category: "Machine Learning"
+  },
+  {
+    id: 178,
+    term: "Hierarchical Clustering",
+    definition: "Organizing data into groups within groups, like a family tree. It creates a hierarchy from individual items up to one big cluster, showing relationships at different levels.",
+    category: "Machine Learning"
+  },
+  {
+    id: 179,
+    term: "Incremental Learning",
+    definition: "Learning new information bit by bit without forgetting previous knowledge. Like adding new contacts to your phone without losing the old ones.",
+    category: "Machine Learning"
+  },
+  {
+    id: 180,
+    term: "Imitation Learning",
+    definition: "AI that learns by watching and copying experts, just like how kids learn by mimicking adults. Show it enough examples of good behavior and it learns to do the same.",
+    category: "Machine Learning"
+  },
+  {
+    id: 181,
+    term: "Inductive Logic Programming",
+    definition: "Teaching AI to learn logical rules from examples. Like showing a child many situations and letting them figure out the underlying principles, such as 'fire is hot' or 'heavy things fall.'",
+    category: "Machine Learning"
+  },
+  {
+    id: 182,
+    term: "Inductive Reasoning",
+    definition: "Making general rules from specific examples. Like noticing that every swan you've seen is white and concluding that all swans are white (which isn't actually true, but that's the idea).",
+    category: "Machine Learning"
+  },
+  {
+    id: 183,
+    term: "Instance-Based Learning",
+    definition: "Learning by remembering specific examples and comparing new situations to those memories. Like recognizing a new dog breed because it looks similar to dogs you've seen before.",
+    category: "Machine Learning"
+  },
+  {
+    id: 184,
+    term: "Joint Probability Distribution",
+    definition: "A mathematical way to describe how likely different combinations of events are. Like knowing the odds of it being both rainy AND cold versus sunny AND warm.",
+    category: "Machine Learning"
+  },
+  {
+    id: 185,
+    term: "Latent Variable",
+    definition: "Hidden factors that influence what you can observe but can't measure directly. Like 'happiness' - you can't measure it directly, but you see its effects in behavior and choices.",
+    category: "Machine Learning"
+  },
+  {
+    id: 186,
+    term: "Learning to Rank",
+    definition: "Teaching AI to put things in order of importance or relevance, like how search engines decide which results to show first when you Google something.",
+    category: "Machine Learning"
+  },
+  {
+    id: 187,
+    term: "Multilayer Perceptron",
+    definition: "A neural network with multiple layers of simple processing units. Think of it as a committee where each layer votes on the decision, building up from simple to complex understanding.",
+    category: "Machine Learning"
+  },
+  {
+    id: 188,
+    term: "Meta-Learning",
+    definition: "Learning how to learn faster. It's like developing study skills that help you master new subjects quickly, rather than starting from scratch every time.",
+    category: "Machine Learning"
+  },
+  {
+    id: 189,
+    term: "Model Selection",
+    definition: "Choosing the best AI approach for your specific problem. Like picking the right tool from a toolbox - sometimes you need a hammer, sometimes a screwdriver.",
+    category: "Machine Learning"
+  },
+  {
+    id: 190,
+    term: "Multimodal Learning",
+    definition: "AI that learns from different types of data at once - text, images, sound, etc. Like how humans understand a movie by seeing, hearing, and reading subtitles all together.",
+    category: "Machine Learning"
+  },
+  {
+    id: 191,
+    term: "Neuro-Fuzzy System",
+    definition: "Combining neural networks with fuzzy logic to handle both learning and uncertainty. Like having a brain that can both learn from experience and deal with unclear situations.",
+    category: "Machine Learning"
+  },
+  {
+    id: 192,
+    term: "Neuroevolution",
+    definition: "Using evolutionary principles to design neural networks. Instead of traditional training, it breeds networks like you'd breed dogs, keeping the best performers for the next generation.",
+    category: "Machine Learning"
+  },
+  {
+    id: 193,
+    term: "Noise",
+    definition: "Random errors or irrelevant information in data that can confuse AI learning. Like static on a radio - it makes it harder to hear the actual music clearly.",
+    category: "Machine Learning"
+  },
+  {
+    id: 194,
+    term: "Probabilistic Reasoning",
+    definition: "Making decisions based on likelihood rather than certainty. Like carrying an umbrella when there's a 70% chance of rain - you're planning for probable outcomes.",
+    category: "Machine Learning"
+  },
+  {
+    id: 195,
+    term: "Q-Learning",
+    definition: "A way for AI to learn the best actions through trial and error, like a video game character learning which moves lead to high scores and which ones get you killed.",
+    category: "Machine Learning"
+  },
+  {
+    id: 196,
+    term: "Quantization",
+    definition: "Making AI models smaller and faster by using simpler numbers. Like converting a high-definition movie to lower quality so it fits on your phone without losing the story.",
+    category: "Machine Learning"
+  },
+  {
+    id: 197,
+    term: "Representation Learning",
+    definition: "Teaching AI to automatically discover useful ways to represent data. Like learning that images can be described by edges and textures rather than just individual pixels.",
+    category: "Machine Learning"
+  },
+  {
+    id: 198,
+    term: "Reservoir Computing",
+    definition: "A neural network approach that uses a fixed 'reservoir' of connections and only trains the output layer. Like having a complex echo chamber that you learn to interpret.",
+    category: "Machine Learning"
+  },
+  {
+    id: 199,
+    term: "Self-Supervised Learning",
+    definition: "AI that creates its own training labels from the data itself. Like learning language by predicting missing words in sentences - no human labeling required.",
+    category: "Machine Learning"
+  },
+  {
+    id: 200,
+    term: "Semi-Supervised Learning",
+    definition: "Learning from a mix of labeled and unlabeled data. Like having some homework problems with answer keys and others where you have to figure it out yourself.",
+    category: "Machine Learning"
+  },
+  {
+    id: 201,
+    term: "Sequence Learning",
+    definition: "Teaching AI to understand patterns in ordered data like sentences, music, or time series. Like learning that 'once upon a time' usually starts a fairy tale.",
+    category: "Machine Learning"
+  },
+  {
+    id: 202,
+    term: "Statistical Learning",
+    definition: "Using statistical methods to find patterns in data and make predictions. Like using past weather data to forecast tomorrow's temperature - it's all about finding statistical relationships.",
+    category: "Machine Learning"
+  },
+  {
+    id: 203,
+    term: "Statistical Model",
+    definition: "A mathematical representation of real-world processes based on statistical relationships. Like a formula that predicts house prices based on size, location, and age.",
+    category: "Machine Learning"
+  },
+  {
+    id: 204,
+    term: "Stochastic Process",
+    definition: "A system that evolves randomly over time according to probabilistic rules. Like the weather - it follows patterns but has random elements that make exact prediction impossible.",
+    category: "Machine Learning"
+  },
+  {
+    id: 205,
+    term: "Structured Prediction",
+    definition: "Predicting complex, interconnected outputs rather than simple labels. Like predicting entire sentences with grammar and meaning, not just individual words.",
+    category: "Machine Learning"
+  },
+  {
+    id: 206,
+    term: "Value Function",
+    definition: "A way to score how good a particular state or action is for achieving goals. Like having a mental scoreboard that tells you how well you're doing toward your objectives.",
+    category: "Machine Learning"
+  },
+  {
+    id: 207,
+    term: "Weight",
+    definition: "The strength of connections between neurons in a neural network. Like the volume knobs that determine how much influence each input has on the final decision.",
+    category: "Machine Learning"
+  },
+  {
+    id: 208,
+    term: "Zero-Shot Learning",
+    definition: "AI that can recognize things it has never seen before by understanding descriptions or relationships. Like identifying a zebra as 'a horse with stripes' without ever seeing one.",
+    category: "Machine Learning"
+  },
+
+  // Additional Natural Language Processing Terms
+  {
+    id: 209,
+    term: "Corpus",
+    definition: "A large collection of texts used to train language AI. Think of it as the AI's reading library - the more books it reads, the better it understands how language works.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 210,
+    term: "Information Retrieval",
+    definition: "Finding relevant information from large collections of text. It's what search engines do - sifting through billions of web pages to find exactly what you're looking for.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 211,
+    term: "Lexical Semantics",
+    definition: "Understanding what individual words mean and how they relate to each other. Like knowing that 'cat' and 'feline' refer to the same type of animal, just with different words.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 212,
+    term: "Natural Language Generation",
+    definition: "AI that can write human-like text, from simple sentences to entire articles. It's like having a robot writer that can express ideas in natural, flowing language.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 213,
+    term: "Natural Language Understanding",
+    definition: "AI that truly comprehends what text means, not just recognizes words. Like the difference between parroting back a phrase and actually understanding what someone is telling you.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 214,
+    term: "Query Expansion",
+    definition: "Making search queries better by adding related terms. Like turning 'car problems' into 'car problems automotive issues vehicle trouble' to find more relevant results.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 215,
+    term: "Semantic Analysis",
+    definition: "Understanding the actual meaning behind words and sentences, including context and nuance. Like knowing that 'This pizza is sick!' probably means it's really good, not diseased.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 216,
+    term: "Semantic Network",
+    definition: "A map of how concepts and meanings connect to each other. Like a mind map showing that 'dog' connects to 'pet,' 'animal,' 'loyal,' and 'furry' in a web of relationships.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 217,
+    term: "Speech Recognition",
+    definition: "Converting spoken words into text that computers can understand. It's what lets you talk to Siri or dictate messages instead of typing them out.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 218,
+    term: "Text Mining",
+    definition: "Digging through large amounts of text to find patterns, trends, and insights. Like being a detective who reads thousands of documents to solve a case.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 219,
+    term: "Text-to-Speech",
+    definition: "Converting written text into spoken words. It's how audiobooks are made by computers, or how your GPS gives you turn-by-turn directions out loud.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 220,
+    term: "Virtual Assistant",
+    definition: "AI helpers like Siri, Alexa, or Google Assistant that can understand speech, answer questions, and help with tasks through natural conversation.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 221,
+    term: "Voice Recognition",
+    definition: "Identifying who is speaking based on the unique characteristics of their voice. Like how you can recognize your friend calling even before they say their name.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 222,
+    term: "Word Sense Disambiguation",
+    definition: "Figuring out which meaning of a word is intended when it has multiple meanings. Like knowing whether 'bank' means money or river depending on the context.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 223,
+    term: "Chatbot",
+    definition: "AI programs designed to have conversations with humans through text or voice. From simple customer service bots to sophisticated companions like ChatGPT.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 224,
+    term: "Personalized Recommendation",
+    definition: "AI that suggests things you might like based on your past behavior and preferences. Like how Netflix knows what movies to suggest or Spotify creates playlists just for you.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 225,
+    term: "Retrieval",
+    definition: "Finding and extracting relevant information from large databases or document collections. Like having a super-smart librarian who can instantly find any fact you need.",
+    category: "Natural Language Processing"
+  },
+
+  // Additional Computer Vision Terms
+  {
+    id: 226,
+    term: "Machine Perception",
+    definition: "Giving machines the ability to understand and interpret sensory information like sight, sound, and touch. It's like building artificial senses for computers.",
+    category: "Computer Vision"
+  },
+  {
+    id: 227,
+    term: "Pattern Recognition",
+    definition: "The ability to identify recurring themes, shapes, or structures in data. Like recognizing that a circle is still a circle whether it's big, small, red, or blue.",
+    category: "Computer Vision"
+  },
+  {
+    id: 228,
+    term: "Perceptron",
+    definition: "The simplest form of artificial neuron that learns to classify things into categories. Think of it as a basic decision-maker that learns from examples to say 'yes' or 'no.'",
+    category: "Computer Vision"
+  },
+  {
+    id: 229,
+    term: "Processing Unit",
+    definition: "The computational engines that do the heavy lifting in AI systems. Like having powerful workers in a factory that can handle complex calculations quickly.",
+    category: "Computer Vision"
+  },
+  {
+    id: 230,
+    term: "Tensor",
+    definition: "A mathematical structure for organizing multi-dimensional data. Think of it as a smart container that can hold numbers in complex arrangements, like a multi-layered spreadsheet.",
+    category: "Computer Vision"
+  },
+  {
+    id: 231,
+    term: "Feature",
+    definition: "Individual measurable properties of observed phenomena. Like height, weight, and age are features of a person, or edges and colors are features of an image.",
+    category: "Computer Vision"
+  },
+
+  // Additional Generative AI Terms
+  {
+    id: 232,
+    term: "Program Synthesis",
+    definition: "AI that can write computer code automatically based on descriptions of what the program should do. Like having a programmer assistant that turns your ideas into working software.",
+    category: "Generative AI"
+  },
+  {
+    id: 233,
+    term: "Creativity",
+    definition: "The ability of AI to generate novel and valuable ideas, art, or solutions. It's what lets AI compose music, write poetry, or design new products that feel genuinely creative.",
+    category: "Generative AI"
+  },
+
+  // Additional Robotics Terms  
+  {
+    id: 234,
+    term: "Behavior-Based Robotics",
+    definition: "Building robots that act based on simple behaviors that combine to create complex actions. Like how flocking birds follow simple rules but create beautiful, coordinated movement patterns.",
+    category: "Robotics"
+  },
+  {
+    id: 235,
+    term: "Digital Twin",
+    definition: "A virtual copy of a real-world object or system that mirrors its behavior in real-time. Like having a detailed computer simulation of a factory that updates as the real factory operates.",
+    category: "Robotics"
+  },
+
+  // Additional AI Ethics Terms
+  {
+    id: 236,
+    term: "Ethics of AI",
+    definition: "The moral principles and guidelines that should govern how AI is developed and used. It's about ensuring AI benefits humanity while avoiding harm and respecting human values.",
+    category: "AI Ethics"
+  },
+  {
+    id: 237,
+    term: "Affective Computing",
+    definition: "Building AI that can recognize, understand, and respond to human emotions. Like giving computers emotional intelligence so they can tell when you're frustrated or happy.",
+    category: "AI Ethics"
+  },
+  {
+    id: 238,
+    term: "Uncertainty",
+    definition: "Dealing with situations where AI doesn't have complete information or can't be 100% confident in its decisions. Like making the best choice possible when you don't have all the facts.",
+    category: "AI Ethics"
+  },
+  {
+    id: 239,
+    term: "Utility Function",
+    definition: "A mathematical way to define what outcomes an AI should value and optimize for. Like programming a robot's sense of right and wrong, or what it should consider 'good' results.",
+    category: "AI Ethics"
+  },
+
+  // Additional Technical Concepts Terms
+  {
+    id: 240,
+    term: "A* Search",
+    definition: "A smart pathfinding algorithm that finds the shortest route by making educated guesses about which direction looks most promising. Like GPS navigation that considers both distance and traffic.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 241,
+    term: "Abstraction",
+    definition: "Simplifying complex systems by focusing on the essential features and hiding unnecessary details. Like using a map instead of satellite photos - you get the important info without clutter.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 242,
+    term: "Abstract Data Type",
+    definition: "A way to organize data that focuses on what you can do with it rather than how it's stored. Like knowing you can withdraw money from an ATM without understanding the bank's computer systems.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 243,
+    term: "Accelerating Change",
+    definition: "The idea that technological progress is speeding up exponentially. Like how smartphones went from basic to incredibly sophisticated in just a few years - change keeps getting faster.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 244,
+    term: "Action Language",
+    definition: "A formal way to describe actions and their effects in AI planning. Like writing a recipe that precisely defines what each step does and what ingredients it changes.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 245,
+    term: "Action Model Learning",
+    definition: "Teaching AI to understand what happens when certain actions are taken. Like learning that turning a key starts a car or that watering plants helps them grow.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 246,
+    term: "Action Selection",
+    definition: "How AI decides what to do next when faced with multiple options. Like choosing whether to grab an umbrella based on weather, time, and destination.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 247,
+    term: "Admissible Heuristic",
+    definition: "A rule of thumb that never overestimates the cost to reach a goal. Like estimating travel time - it's better to guess low and arrive early than high and be stressed.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 248,
+    term: "Algorithmic Efficiency",
+    definition: "How fast and resource-friendly an algorithm is. Like comparing two recipes - one might taste the same but use fewer ingredients and take less time to cook.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 249,
+    term: "Algorithmic Probability",
+    definition: "Using the simplicity of algorithms to estimate how likely different explanations are. Simpler explanations (shorter programs) are considered more probable than complex ones.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 250,
+    term: "Analysis of Algorithms",
+    definition: "Studying how fast algorithms run and how much memory they use. Like analyzing cars to see which ones are most fuel-efficient and can carry the most passengers.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 251,
+    term: "Analytics",
+    definition: "The systematic analysis of data to discover meaningful patterns and insights. Like being a detective who solves mysteries by carefully examining clues and evidence.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 252,
+    term: "Answer Set Programming",
+    definition: "A logic programming approach where you describe what you want rather than how to compute it. Like telling a computer 'I want a schedule with no conflicts' and letting it figure out the details.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 253,
+    term: "Anytime Algorithm",
+    definition: "An algorithm that can give you a decent answer quickly, then improve it if given more time. Like sketch artists who can give you a rough drawing fast, then add details if needed.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 254,
+    term: "Application Programming Interface",
+    definition: "A set of rules that lets different software programs talk to each other. Like a universal translator that helps apps share information and work together smoothly.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 255,
+    term: "Approximate String Matching",
+    definition: "Finding text that's similar but not exactly the same. Like autocorrect figuring out you meant 'hello' when you typed 'helo' - close enough counts.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 256,
+    term: "Approximation Error",
+    definition: "The difference between the real answer and your best guess. Like the gap between your estimated arrival time and when you actually show up.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 257,
+    term: "Argumentation Framework",
+    definition: "A formal way to model debates and reasoning with conflicting information. Like having rules for a debate club that help determine which arguments are strongest.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 258,
+    term: "Ant Colony Optimization",
+    definition: "Solving problems by mimicking how ants find the shortest path to food. Virtual ants leave digital 'pheromone trails' that guide others to good solutions.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 259,
+    term: "Boolean Logic",
+    definition: "Simple true/false reasoning that computers use for making decisions. Everything boils down to yes/no, on/off, 1/0 - the basic language of digital thinking.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 260,
+    term: "Epistemic Logic",
+    definition: "Logic that deals with knowledge and belief - what someone knows, believes, or is uncertain about. Like reasoning about what others know or don't know.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 261,
+    term: "Non-Monotonic Logic",
+    definition: "Reasoning that can change conclusions when new information arrives. Unlike regular logic where facts stay true, this handles situations where you might need to revise beliefs.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 262,
+    term: "Big Data",
+    definition: "Datasets so large and complex that traditional data tools can't handle them effectively. Think of it as information so massive you need special equipment just to store and analyze it.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 263,
+    term: "Blackboard System",
+    definition: "A problem-solving approach where different AI experts contribute knowledge to a shared workspace. Like having multiple specialists work on different parts of a puzzle on the same whiteboard.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 264,
+    term: "Bounded Rationality",
+    definition: "Making the best decisions possible given limited time, information, and thinking power. Like choosing a restaurant when you're hungry - you pick something good enough rather than researching every option.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 265,
+    term: "Brute-Force Search",
+    definition: "Solving problems by trying every possible solution until you find the right one. Like finding your keys by checking every pocket, drawer, and surface in your house.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 266,
+    term: "Business Intelligence",
+    definition: "Using data analysis to help companies make smarter business decisions. Like having a crystal ball that uses past sales data to predict what customers will want next month.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 267,
+    term: "Case-Based Reasoning",
+    definition: "Solving new problems by remembering how you solved similar problems before. Like a doctor diagnosing a patient by recalling similar cases from medical school or experience.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 268,
+    term: "Causal Reasoning",
+    definition: "Understanding cause-and-effect relationships - what makes things happen and why. Like knowing that rain causes wet streets, not the other way around.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 269,
+    term: "Classifier",
+    definition: "AI that puts things into categories. Like a sorting machine that can look at emails and decide which folder they belong in - spam, work, personal, etc.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 270,
+    term: "Clustering",
+    definition: "Grouping similar things together without knowing the categories beforehand. Like organizing your music collection by letting the computer figure out genres based on sound similarities.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 271,
+    term: "Complexity Class",
+    definition: "Categories that group problems by how hard they are to solve computationally. Like organizing puzzles by difficulty level - some are quick to solve, others might take centuries.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 272,
+    term: "Constraint Satisfaction Problem",
+    definition: "Finding solutions that meet all the given requirements and limitations. Like scheduling a meeting where everyone is available, the room is free, and equipment is working.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 273,
+    term: "Context-Aware Computing",
+    definition: "Technology that adapts based on the current situation - time, location, user preferences, and circumstances. Like a smart thermostat that adjusts based on weather and occupancy.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 274,
+    term: "Crowdsourcing",
+    definition: "Getting help from lots of people to solve problems or gather information. Like Wikipedia, where thousands of volunteers contribute knowledge to create a massive encyclopedia.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 275,
+    term: "Cybernetics",
+    definition: "The study of how systems regulate and control themselves through feedback loops. Like how a thermostat maintains temperature by monitoring and adjusting automatically.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 276,
+    term: "Data Mining",
+    definition: "Digging through large amounts of data to find hidden patterns and valuable insights. Like panning for gold, but instead of gold nuggets, you're finding useful information.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 277,
+    term: "Data Science",
+    definition: "The art and science of extracting insights from data using statistics, programming, and domain expertise. Like being a detective who solves mysteries using numbers instead of fingerprints.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 278,
+    term: "Data Set",
+    definition: "A collection of related data organized for analysis. Like a photo album, but instead of pictures, it contains information that can be studied and analyzed.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 279,
+    term: "Decision Support System",
+    definition: "Computer systems that help people make better decisions by organizing information and analyzing options. Like having a smart advisor that presents facts and recommendations.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 280,
+    term: "Deterministic Algorithm",
+    definition: "An algorithm that always produces the same output for the same input. Like a recipe that always makes the same cake if you follow it exactly with the same ingredients.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 281,
+    term: "Distributed AI",
+    definition: "Spreading AI computation across multiple computers or locations. Like having a team of experts in different cities all working together on the same project.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 282,
+    term: "Domain Adaptation",
+    definition: "Helping AI trained in one area work well in a related but different area. Like a doctor trained in human medicine learning to treat animals - similar skills, different application.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 283,
+    term: "Dynamic Programming",
+    definition: "Solving complex problems by breaking them into simpler subproblems and reusing solutions. Like building with LEGO - you solve small parts once and reuse them in bigger constructions.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 284,
+    term: "Edge Computing",
+    definition: "Processing data close to where it's created instead of sending it to distant servers. Like having a local grocery store instead of driving to the city for every purchase.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 285,
+    term: "Entropy",
+    definition: "A measure of uncertainty or randomness in information. High entropy means lots of surprises and unpredictability, low entropy means things are orderly and predictable.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 286,
+    term: "Evolutionary Algorithm",
+    definition: "Problem-solving inspired by natural evolution - create random solutions, keep the best ones, mix them together, and repeat until you get something great.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 287,
+    term: "Fuzzy Logic",
+    definition: "Logic that handles partial truths and degrees of uncertainty. Instead of just true/false, it allows for 'somewhat true' or 'mostly false' - more like human thinking.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 288,
+    term: "Fuzzy Set",
+    definition: "A set where membership can be partial rather than all-or-nothing. Like the set of 'tall people' where someone can be somewhat tall, very tall, or just a little tall.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 289,
+    term: "Game Theory",
+    definition: "Mathematical study of strategic decision-making when multiple players with different goals interact. Like analyzing poker strategies or business competition.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 290,
+    term: "Genetic Algorithm",
+    definition: "Optimization inspired by biological evolution - start with random solutions, breed the best ones together, add mutations, and evolve toward better answers over generations.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 291,
+    term: "Graph Theory",
+    definition: "The mathematics of networks and connections. Like studying subway maps to understand the best routes, or social networks to see how people are connected.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 292,
+    term: "Heuristic",
+    definition: "A rule of thumb or educated guess that usually works well but isn't guaranteed to be perfect. Like 'always take the highway during rush hour' - often good advice but not always.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 293,
+    term: "High-Dimensional Space",
+    definition: "Data that has many different attributes or features. Like describing a person with hundreds of characteristics instead of just height and weight - harder to visualize but more detailed.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 294,
+    term: "Hybrid Intelligent System",
+    definition: "AI that combines different approaches to get better results. Like a Swiss Army knife that has multiple tools working together instead of just one.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 295,
+    term: "Hypothesis",
+    definition: "An educated guess or proposed explanation that can be tested. Like theorizing that students learn better with music, then designing experiments to see if it's true.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 296,
+    term: "Inference",
+    definition: "Drawing logical conclusions from available information. Like seeing footprints in snow and inferring that someone walked there recently.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 297,
+    term: "Knowledge Graph",
+    definition: "A network that connects facts and concepts, showing how different pieces of information relate to each other. Like a family tree, but for all knowledge.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 298,
+    term: "Markov Model",
+    definition: "A system where the next state depends only on the current state, not the entire history. Like predicting tomorrow's weather based only on today's conditions.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 299,
+    term: "Markov Decision Process",
+    definition: "A framework for making sequential decisions where outcomes are partly random. Like planning a road trip where traffic and weather affect your choices along the way.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 300,
+    term: "Monte Carlo Method",
+    definition: "Using random sampling to solve problems that are hard to calculate exactly. Like estimating the area of an irregular shape by randomly throwing darts and seeing where they land.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 301,
+    term: "Model",
+    definition: "A simplified representation of something complex that helps us understand or predict behavior. Like a toy airplane that helps explain how real planes fly.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 302,
+    term: "Multi-Agent System",
+    definition: "Multiple AI agents working together or competing to achieve goals. Like a team of robots where each has different skills but they coordinate to complete tasks.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 303,
+    term: "Ontology",
+    definition: "A formal way to organize and categorize knowledge about a particular domain. Like a detailed taxonomy that defines what things exist and how they relate to each other.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 304,
+    term: "Optimization",
+    definition: "Finding the best solution among all possible options. Like finding the fastest route to work considering traffic, distance, and road conditions.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 305,
+    term: "Parallel Computing",
+    definition: "Using multiple processors to work on different parts of a problem simultaneously. Like having several people work on different pieces of a jigsaw puzzle at the same time.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 306,
+    term: "Parameter",
+    definition: "A variable that defines the characteristics or behavior of a system. Like the settings on your camera - aperture, shutter speed, and ISO are parameters that affect the photo.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 307,
+    term: "Qualitative Reasoning",
+    definition: "Understanding systems using qualities and relationships rather than precise numbers. Like knowing that 'more pressure makes water boil faster' without needing exact measurements.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 308,
+    term: "Rule-Based System",
+    definition: "AI that follows explicit 'if-then' rules to make decisions. Like a flowchart that tells you exactly what to do in each situation - if this happens, then do that.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 309,
+    term: "Satisfiability",
+    definition: "Determining whether there's a way to make a logical formula true. Like solving a puzzle to see if there's any combination of moves that leads to victory.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 310,
+    term: "Scalability",
+    definition: "How well a system handles increasing amounts of work or users. Like a restaurant that can serve 10 customers well but falls apart when 100 people show up.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 311,
+    term: "Search Algorithm",
+    definition: "Systematic methods for finding solutions in a space of possibilities. Like different strategies for finding your keys - random search, systematic room-by-room, or retracing your steps.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 312,
+    term: "Simulated Annealing",
+    definition: "An optimization technique inspired by metallurgy that occasionally accepts worse solutions to avoid getting stuck. Like sometimes taking a longer route to avoid traffic jams.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 313,
+    term: "Soft Computing",
+    definition: "Computing approaches that tolerate imprecision and uncertainty to achieve tractability and low cost. Like being okay with 'close enough' answers when perfect precision isn't necessary.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 314,
+    term: "Software Agent",
+    definition: "A computer program that acts autonomously on behalf of users or other programs. Like having a digital assistant that can book flights, answer emails, or manage your calendar.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 315,
+    term: "Task",
+    definition: "A specific job or activity that needs to be completed. In AI, it's what we want the system to accomplish - like recognizing images, translating text, or playing games.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 316,
+    term: "Temporal Logic",
+    definition: "Logic that includes concepts of time - what was true before, what's true now, and what will be true later. Like reasoning about sequences of events and their timing.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 317,
+    term: "Threshold Function",
+    definition: "A function that activates when input exceeds a certain level. Like a fire alarm that only goes off when smoke reaches a critical concentration.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 318,
+    term: "Validation",
+    definition: "Testing whether a model or system actually works correctly on new, unseen data. Like checking if your study methods actually help you perform better on real exams.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 319,
+    term: "Variable",
+    definition: "A symbol that represents a value that can change. Like using 'x' in math to represent any number, or 'temperature' to represent whatever the current temperature is.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 320,
+    term: "Vector Space Model",
+    definition: "A way to represent text or data as points in multi-dimensional space. Like plotting documents on a graph where similar documents end up close to each other.",
+    category: "Technical Concepts"
   }
 ];
 
