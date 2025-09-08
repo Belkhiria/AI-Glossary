@@ -9,8 +9,8 @@ export const aiTerms = [
   },
   {
     id: 2,
-    term: "Artificial General Intelligence",
-    definition: "This is the holy grail of AI - a computer that's as smart as a human in every way. It doesn't exist yet, but it would be able to learn any skill, solve any problem, and be creative just like we are.",
+    term: "Artificial General Intelligence (AGI)",
+    definition: "A not‑yet‑real kind of AI that could learn and do almost any mental task a person can. Example: one system that can pass a medical exam, write music, and fix a bike by reading the manual—without special retraining.",
     category: "Foundational AI"
   },
   {
@@ -22,7 +22,7 @@ export const aiTerms = [
   {
     id: 4,
     term: "Cognitive Computing",
-    definition: "Computers that try to think like humans do - making sense of messy information, learning from experience, and even having something like intuition when solving problems.",
+    definition: "An older label for \"smart\" business software that tried to mimic human reasoning. Today we just say AI for language, vision, etc. Example: an insurance chatbot answering policy questions.",
     category: "Foundational AI"
   },
   
@@ -85,32 +85,32 @@ export const aiTerms = [
   },
   {
     id: 14,
-    term: "Large Language Model",
-    definition: "An AI that's read basically the entire internet and learned how language works. Think ChatGPT - it can write, answer questions, and chat because it's seen millions of examples of human text.",
+    term: "Large Language Model (LLM)",
+    definition: "A program trained on lots of text to learn how words fit together. It answers by predicting the next words. Example: you ask \"Explain photosynthesis,\" it writes a short paragraph.",
     category: "Natural Language Processing"
   },
   {
     id: 15,
     term: "Transformer",
-    definition: "The breakthrough AI architecture that powers ChatGPT and most modern language models. It's really good at paying attention to the important parts of text, like focusing on key words in a sentence.",
+    definition: "A neural design that \"pays attention\" to the most important parts of what it reads (or sees). Example: in \"The dog chased the ball,\" it focuses on \"dog\" and \"ball\" to understand \"chased.\"",
     category: "Natural Language Processing"
   },
   {
     id: 16,
     term: "GPT",
-    definition: "The famous AI behind ChatGPT! It stands for 'Generative Pre-trained Transformer' - basically an AI that learned to predict what word comes next by reading tons of text, and got really good at writing like humans.",
+    definition: "\"Generative Pre‑trained Transformer\": first it learns from lots of text; then it's tuned to be helpful and safe. Example: Chat‑style answers, code help, or summaries.",
     category: "Natural Language Processing"
   },
   {
     id: 17,
     term: "BERT",
-    definition: "Google's AI that reads text from both directions at once (like reading a sentence forwards and backwards) to really understand context. It's what makes Google Search so good at understanding what you mean.",
+    definition: "A model that reads left and right for context. Example: it knows \"bank\" in \"river bank\" means shore, not money.",
     category: "Natural Language Processing"
   },
   {
     id: 18,
     term: "Tokenization",
-    definition: "Breaking text into bite-sized pieces that AI can understand. Like cutting a sentence into individual words, or even smaller chunks. It's like preparing ingredients before cooking.",
+    definition: "Cutting text into pieces the model can handle (words or sub‑words). Example: \"sunshine\" → \"sun\" + \"shine.\"",
     category: "Natural Language Processing"
   },
   {
@@ -130,7 +130,7 @@ export const aiTerms = [
   {
     id: 21,
     term: "Image Recognition",
-    definition: "AI that can look at a photo and tell you what's in it - 'That's a dog!', 'That's a car!', 'That's your grandma!' It's like having a really smart friend who never forgets what anything looks like.",
+    definition: "Labels what's in a picture. Example: \"dog,\" \"car,\" \"tree.\"",
     category: "Computer Vision"
   },
   {
@@ -142,7 +142,7 @@ export const aiTerms = [
   {
     id: 23,
     term: "Facial Recognition",
-    definition: "AI that recognizes faces - like how your phone unlocks when it sees you, or how Facebook suggests who to tag in photos. It learns the unique features that make your face yours.",
+    definition: "Matches a face to a person. Example: unlocking your phone with your face. (Note: rules and limits apply in many places.)",
     category: "Computer Vision"
   },
   {
@@ -161,14 +161,14 @@ export const aiTerms = [
   },
   {
     id: 26,
-    term: "Generative Adversarial Network",
-    definition: "Two AIs competing against each other - one tries to create fake images, the other tries to spot the fakes. They keep getting better until the fakes are so good you can't tell the difference!",
+    term: "Generative Adversarial Network (GAN)",
+    definition: "Two models train together: one makes fakes, the other catches them. Example: the generator learns to create realistic faces.",
     category: "Generative AI"
   },
   {
     id: 27,
     term: "Diffusion Model",
-    definition: "The AI behind tools like Stable Diffusion and DALL-E. It starts with pure noise and gradually shapes it into an image, like a sculptor slowly revealing a statue from a block of marble.",
+    definition: "An image maker that starts with \"snowy\" noise and cleans it until a clear picture appears. Example: type \"a red bicycle on the beach\"; it paints one from noise.",
     category: "Generative AI"
   },
   {
@@ -553,18 +553,6 @@ export const aiTerms = [
     id: 89,
     term: "Coreference Resolution",
     definition: "Teaching AI to understand when different words refer to the same thing. Like knowing that 'John', 'he', 'the doctor', and 'Mr. Smith' all refer to the same person in a story.",
-    category: "Natural Language Processing"
-  },
-  {
-    id: 90,
-    term: "Language Model",
-    definition: "An AI that has learned how language works by reading tons of text. It can predict what word comes next, like when your phone suggests the next word as you type.",
-    category: "Natural Language Processing"
-  },
-  {
-    id: 91,
-    term: "Attention Mechanism",
-    definition: "The AI's way of focusing on the important parts while ignoring the rest. Like how you focus on keywords when skimming an article - the AI learns to do the same thing.",
     category: "Natural Language Processing"
   },
   {
@@ -1399,30 +1387,6 @@ export const aiTerms = [
     definition: "The ability to identify recurring themes, shapes, or structures in data. Like recognizing that a circle is still a circle whether it's big, small, red, or blue.",
     category: "Computer Vision"
   },
-  {
-    id: 228,
-    term: "Perceptron",
-    definition: "The simplest form of artificial neuron that learns to classify things into categories. Think of it as a basic decision-maker that learns from examples to say 'yes' or 'no.'",
-    category: "Computer Vision"
-  },
-  {
-    id: 229,
-    term: "Processing Unit",
-    definition: "The computational engines that do the heavy lifting in AI systems. Like having powerful workers in a factory that can handle complex calculations quickly.",
-    category: "Computer Vision"
-  },
-  {
-    id: 230,
-    term: "Tensor",
-    definition: "A mathematical structure for organizing multi-dimensional data. Think of it as a smart container that can hold numbers in complex arrangements, like a multi-layered spreadsheet.",
-    category: "Computer Vision"
-  },
-  {
-    id: 231,
-    term: "Feature",
-    definition: "Individual measurable properties of observed phenomena. Like height, weight, and age are features of a person, or edges and colors are features of an image.",
-    category: "Computer Vision"
-  },
 
   // Additional Generative AI Terms
   {
@@ -1963,6 +1927,306 @@ export const aiTerms = [
     id: 320,
     term: "Vector Space Model",
     definition: "A way to represent text or data as points in multi-dimensional space. Like plotting documents on a graph where similar documents end up close to each other.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 321,
+    term: "Narrow AI",
+    definition: "AI built for a specific job. Example: a model that only translates languages or only spots spam emails.",
+    category: "Foundational AI"
+  },
+  {
+    id: 322,
+    term: "Language Model",
+    definition: "Any model that learns patterns in text and guesses the next word. Example: your phone suggesting the next word as you type.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 323,
+    term: "Attention Mechanism",
+    definition: "The part that lets the model look harder at the key bits. Example: when translating a sentence, it focuses on the word being translated right now.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 324,
+    term: "CLIP",
+    definition: "Connects pictures and text in the same \"meaning space.\" Example: find the photo that best matches the caption \"a red bicycle.\"",
+    category: "Computer Vision"
+  },
+  {
+    id: 325,
+    term: "ControlNet",
+    definition: "A helper that lets you guide image generation with edges, poses, or depth. Example: upload a stick‑figure pose; get a person in that pose.",
+    category: "Generative AI"
+  },
+  {
+    id: 326,
+    term: "LoRA",
+    definition: "A way to fine‑tune big models by adding tiny adapters instead of changing the whole model. Example: teaching a model your brand's tone in minutes.",
+    category: "Machine Learning"
+  },
+  {
+    id: 327,
+    term: "Robot Operating System (ROS)",
+    definition: "Not an operating system—more like glue. Tools that help robot parts talk to each other. Example: a robot vacuum's sensors and motors coordinate using ROS tools.",
+    category: "Robotics"
+  },
+  {
+    id: 328,
+    term: "Retrieval‑Augmented Generation (RAG)",
+    definition: "An AI that looks things up while answering. Example: it pulls relevant pages from your knowledge base and cites them.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 329,
+    term: "Grounded Generation",
+    definition: "Replies are based on specific sources you provide—and can show their citations. Example: \"According to the 2024 policy PDF…\".",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 330,
+    term: "Hallucination (LLM)",
+    definition: "When the AI makes something up that sounds true but isn't. Example: inventing a book title that doesn't exist.",
+    category: "Natural Language Processing"
+  },
+  {
+    id: 331,
+    term: "Embedding",
+    definition: "Turning text (or images) into a list of numbers that capture meaning, so we can compare similarity. Example: \"car\" is closer to \"truck\" than to \"banana.\"",
+    category: "Technical Concepts"
+  },
+  {
+    id: 332,
+    term: "Vector Database",
+    definition: "Stores embeddings and finds the most similar items fast. Example: \"Find 5 docs most similar to this question.\"",
+    category: "Technical Concepts"
+  },
+  {
+    id: 333,
+    term: "Chunking",
+    definition: "Splitting long docs into smaller pieces the AI can handle. Example: a 50‑page manual becomes many short passages for search and citation.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 334,
+    term: "Context Window",
+    definition: "How much text the model can keep \"in mind\" at once. Example: it may remember ~20 pages of text for one answer, but not a whole book.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 335,
+    term: "Temperature",
+    definition: "A creativity dial. Higher = more surprising wording; lower = safer, more predictable wording. Example: temperature 0.2 sounds steady; 0.9 sounds creative.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 336,
+    term: "Top‑p (Nucleus) Sampling",
+    definition: "Pick the next word from only the most likely few, keeping quality but allowing variety. Example: it chooses among the top 90% of probability mass.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 337,
+    term: "Function Calling / Tool Use",
+    definition: "Let the AI call tools (calculator, calendar, API), then use the result in its answer. Example: \"What's 23.8% of 1,249?\" → it calls a calculator.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 338,
+    term: "Agent (AI Agent)",
+    definition: "An AI \"helper\" that plans steps, uses tools, checks its work, then replies. Example: book travel: search flights → pick → draft email.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 339,
+    term: "Guardrails (Safety Filters)",
+    definition: "Rules and filters that reduce harmful, biased, or off‑limits answers. Example: blocking hate speech or medical advice without disclaimers.",
+    category: "AI Ethics"
+  },
+  {
+    id: 340,
+    term: "Prompt Injection",
+    definition: "A trick to fool the AI into ignoring its rules or revealing secrets by hiding instructions in the input. Example: a pasted web page that says \"ignore all prior rules.\"",
+    category: "AI Ethics"
+  },
+  {
+    id: 341,
+    term: "Data Poisoning",
+    definition: "Sneaking bad examples into training/fine‑tuning so the AI learns the wrong thing. Example: adding fake reviews to teach \"5 stars\" = \"awful.\"",
+    category: "AI Ethics"
+  },
+  {
+    id: 342,
+    term: "RLHF (Reinforcement Learning from Human Feedback)",
+    definition: "People compare answers; the model learns to prefer the better one. Example: volunteers pick the clearer, kinder reply, shaping behavior.",
+    category: "Machine Learning"
+  },
+  {
+    id: 343,
+    term: "DPO (Direct Preference Optimization)",
+    definition: "A simpler way to train on people's choices without a separate reward model. Example: feed in \"A vs B\" choices; it learns to pick A when A is preferred.",
+    category: "Machine Learning"
+  },
+  {
+    id: 344,
+    term: "Mixture of Experts (MoE)",
+    definition: "A big model made of many \"experts,\" but it only wakes up a few per request—fast and efficient. Example: a math expert activates for equations; a writing expert for emails.",
+    category: "Machine Learning"
+  },
+  {
+    id: 345,
+    term: "Multimodal Model",
+    definition: "Handles more than one data type at once (text + images + audio…). Example: look at a photo and answer a written question about it.",
+    category: "Machine Learning"
+  },
+  {
+    id: 346,
+    term: "Vision‑Language Model (VLM)",
+    definition: "A multimodal model that connects images and text. Example: \"What's in this X‑ray?\" → \"A fracture on the left side.\"",
+    category: "Computer Vision"
+  },
+  {
+    id: 347,
+    term: "Text‑to‑Video",
+    definition: "Makes short videos from written prompts by predicting frames over time. Example: \"A paper plane flying through clouds at sunset.\"",
+    category: "Generative AI"
+  },
+  {
+    id: 348,
+    term: "Watermarking (AI Content)",
+    definition: "Hiding a special signal in AI‑made media so tools can detect it later. Example: checking if an image was AI‑generated.",
+    category: "AI Ethics"
+  },
+  {
+    id: 349,
+    term: "On‑device AI / NPU",
+    definition: "Running AI on your phone/laptop with special chips (NPUs) for speed and privacy. Example: live translation without sending audio to the cloud.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 350,
+    term: "GPU / TPU",
+    definition: "Powerful chips that train and run AI fast. Example: GPUs in gaming PCs; TPUs in data centers.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 351,
+    term: "Model Card",
+    definition: "A one‑page \"info sheet\" for a model: what it's for, how it was trained, limits and risks. Example: \"Not for medical diagnosis.\"",
+    category: "AI Ethics"
+  },
+  {
+    id: 352,
+    term: "Datasheet for Datasets",
+    definition: "A short report describing a dataset's source, contents, and possible biases. Example: \"News articles from 2018–2023, mainly English.\"",
+    category: "AI Ethics"
+  },
+  {
+    id: 353,
+    term: "Federated Learning",
+    definition: "Many devices train a shared model without sending raw data to a server. Example: phones improve a typing model locally and share only tiny updates.",
+    category: "Machine Learning"
+  },
+  {
+    id: 354,
+    term: "Differential Privacy",
+    definition: "Adds carefully chosen randomness so results show group trends, not details about any one person. Example: a city report shares average bus times without exposing your exact trips.",
+    category: "AI Ethics"
+  },
+  {
+    id: 355,
+    term: "Precision",
+    definition: "Of all the times the model said \"yes,\" how often was it right? Example: it flags 100 emails as spam, and 95 really are → precision 95%.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 356,
+    term: "Recall",
+    definition: "Of all the real \"yes\" cases, how many did the model find? Example: there are 100 spam emails; it caught 80 → recall 80%.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 357,
+    term: "F1 Score",
+    definition: "One number that balances precision and recall. Example: good when you want both \"right when it says yes\" and \"find most of the yeses.\"",
+    category: "Technical Concepts"
+  },
+  {
+    id: 358,
+    term: "Accuracy",
+    definition: "Out of all predictions, how many were correct. Example: 90 right out of 100 = 90% accuracy.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 359,
+    term: "Class Imbalance",
+    definition: "When one class is rare and another is common. Example: 1 \"fraud\" vs 999 \"not fraud\"—accuracy alone can mislead.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 360,
+    term: "Confusion Matrix",
+    definition: "A small table showing what the model got right and wrong per class. Rows = real answers; columns = model answers. Example: you can see it confuses \"cat\" with \"fox.\"",
+    category: "Technical Concepts"
+  },
+  {
+    id: 361,
+    term: "ROC Curve & AUC",
+    definition: "A chart showing the trade‑off between catching positives and raising false alarms as you move the threshold; AUC is one number summarizing the curve (closer to 1 is better). Example: compare models at many thresholds, not just one.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 362,
+    term: "Cross‑Validation",
+    definition: "A fair test that trains and tests on different slices of the data, then averages results. Example: 5‑fold CV rotates which 20% is the test each time.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 363,
+    term: "Train / Validation / Test Split",
+    definition: "Three sets: learn on train, tune settings on validation, judge final quality on test. Example: keep the test set untouched until the end.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 364,
+    term: "Regularization",
+    definition: "Gentle rules (penalties) that stop a model from memorizing noise. Example: adding a small penalty for very large weights to improve generalization.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 365,
+    term: "Underfitting",
+    definition: "The model is too simple and misses real patterns. Example: a straight line fitted to curvy data performs poorly.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 366,
+    term: "Connection (Weight)",
+    definition: "The strength of the link between two neurons in a network; training tweaks these to learn. Example: turning the \"volume knob\" up or down on certain inputs.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 367,
+    term: "Perceptron",
+    definition: "A simple classifier that draws a line between two groups. Example: separate \"spam\" vs \"not spam\" with a line in a 2‑D plot.",
+    category: "Machine Learning"
+  },
+  {
+    id: 368,
+    term: "Tensor",
+    definition: "A multi‑dimensional array of numbers. Example: a color image is a 3‑D tensor: height × width × RGB.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 369,
+    term: "Feature",
+    definition: "A measurable input the model uses. Example: for house price: size, rooms, zip code.",
+    category: "Technical Concepts"
+  },
+  {
+    id: 370,
+    term: "Processing Unit (Hardware)",
+    definition: "Chips that do AI math quickly (e.g., GPU, TPU, NPU). Example: speeding up image generation from minutes to seconds.",
     category: "Technical Concepts"
   }
 ];
